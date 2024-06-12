@@ -4,34 +4,85 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <style>
+     div {
+         border: 1px solid black;
+     }
 
+     li {
+         border: 1px solid black;
+     }
+
+     li a {
+         color: blue;
+     }
+
+
+     div a {
+         color: green;
+     }
+
+     #exec-bio {
+         background-color: lightgray;
+     }
+
+     .bio-box {
+         border: 1px solid magenta;
+     }
+
+     .bozo-box {
+         background-color: purple;
+     }
+
+     .bio-box a {
+         color: green;
+     }
+
+
+     #the-header {
+         background-color: orange;
+     }
+     button {
+         background-color: gray;
+         border: 1px solid black;
+         color: white;
+         cursor: pointer;
+         display: inline-block;
+         font-family: "proxima-nove", "Proxima Nova", "sans-serif";
+         font-size: 12px;
+         font-weight: bold;
+         letter-spacing: 0.15em;
+         padding: 10px 15px;
+         text-decoration: none;
+         text-transform: uppercase;
+         transition: all 0.1s linear;
+     }
     </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
+    <h1 id=the-header>I'm an h1</h1>
     <ul>
       <li>
-        <a href="https://example.com/" style="color: red;">Link</a>
+        <a href="https://example.com/">Link</a>
       </li>
       <li>
-        <a href="https://example.com/" style="color: red;">Link</a>
+        <a href="https://example.com/">Link</a>
       </li>
       <li>
-        <a href="https://example.com/" style="color: red;">Link</a>
+        <a href="https://example.com/">Link</a>
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div style="border: 1px solid black;">
-      <a href="https://example.com/" style="color: green;">I'm a link</a>
+    <div id="exec-bio" class="bio-box bozo-box">
+      <a href="https://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-      <a href="https://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box bozo-box">
+      <a href="https://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-      <a href="https://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box bozo-box">
+      <a href="https://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-      <a href="https://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box bozo-box">
+      <a href="https://example.com/">I'm a link</a>
     </div>
   </body>
 </html>
